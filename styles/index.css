@@ -95,20 +95,35 @@ header h1 {
   color: black;
 }
 
-/* Navigation links */ve the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
-  }
+/* Navigation links */
+.subnav:hover .subnav-content {
+  display: block;
+}
 aside h2 {
-    text-align: center;
-  }
-
+  text-align: center;
+}
 
   /* ID Selectors */
 #pdf_view {
-  width: 100%;
+  width: 95%;
   height: inherit;
   margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#main_course {
+  width: 35vw;
+  float: left; 
+  height: 75vh;
+  border-right: 1px black;
+}
+#main_course h2 {
+  text-align: center;
+}
+#aside_course {
+  width: 60vw;
+  float: right;
+  height: 75vh;
 }
 #course_title {
   text-align: center;
